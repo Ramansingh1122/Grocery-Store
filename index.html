@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/fav-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    
+    <nav class="nav">
+        <a href="index.html" class="logo">
+            <span>e</span>Grocery
+        </a>
+
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#category">Categories</a></li>
+            <li><a href="#popular-bundle-pack">Our Packages</a></li>
+            <li><a href="#download-app">Our App</a></li>
+        </ul>
+
+        <div class="right-nav">
+            <a href="" class="like">
+                <i class="fa-regular fa-heart"></i>
+                <span>0</span>
+            </a>
+
+            <a href="" class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>0</span>
+            </a>
+        </div>
+    </nav>
+
+    <section id="search-banner">
+        <img src="images/bg-1.png" class="bg-1" alt="bg">
+        <img src="images/bg-2.png" class="bg-2" alt="bg">
+
+        <div class="search-text">
+            <h1>Order Your Daily Groceries</h1>
+            <strong>#Free Delivery</strong>
+        
+            <form action="" class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" class="search-input" placeholder="Search Your Daily Groceries" name="Search" required>
+                <input type="submit" class="search-btn" value="Search">
+            </form>
+        </div>
+    </section>
+
+    <section id="category">
+        <div class="category-heading">
+            <h2>Category</h2>
+            <span>All</span>
+        </div>
+
+        <div class="category-container">
+            <a href="" class="category-box">
+                <img src="images/fish.png" alt="">
+                <span>Fish & Meat</span>
+            </a>
+
+            <a href="" class="category-box">
+                <img src="images/Vegetables.png" alt="">
+                <span>Vegetables</span>
+            </a>
+
+            <a href="" class="category-box">
+                <img src="images/medicine.png" alt="">
+                <span>Medicine</span>
+            </a>
+
+            <a href="" class="category-box">
+                <img src="images/baby.png" alt="">
+                <span>Baby</span>
+            </a>
+
+            <a href="" class="category-box">
+                <img src="images/office.png" alt="">
+                <span>Office</span>
+            </a>
+
+            <a href="" class="category-box">
+                <img src="images/beauty.png" alt="">
+                <span>Beauty</span>
+            </a>
+
+            <a href="" class="category-box">
+                <img src="images/Gardening.png" alt="">
+                <span>Gardening</span>
+            </a>
+        </div>
+
+    </section>
+
+    <section id="popular-product">
+
+        <div class="product-heading">
+            <h3>Popular Product</h3>
+            <span>All</span>
+        </div>
+
+        <div class="product-container">
+            <div class="product-box">
+                <img src="images/apple.png" alt="">
+                <strong>Apple</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">₹ 125</span>
+
+                <a href="" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    Add To Cart
+                </a>
+                <a href="" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <div class="product-box">
+                <img src="images/chili.png" alt="">
+                <strong>Chili</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">₹ 450</span>
+
+                <a href="" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    Add To Cart
+                </a>
+                <a href="" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <div class="product-box">
+                <img src="images/onion.png" alt="">
+                <strong>Onion</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">₹ 25</span>
+
+                <a href="" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    Add To Cart
+                </a>
+                <a href="" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <div class="product-box">
+                <img src="images/patato.png" alt="">
+                <strong>Potato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">₹ 38</span>
+
+                <a href="" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    Add To Cart
+                </a>
+                <a href="" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <div class="product-box">
+                <img src="images/garlic.png" alt="">
+                <strong>Garlic</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">₹ 140</span>
+
+                <a href="" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    Add To Cart
+                </a>
+                <a href="" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <div class="product-box">
+                <img src="images/tamato.png" alt="">
+                <strong>Tomato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">₹ 150</span>
+
+                <a href="" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    Add To Cart
+                </a>
+                <a href="" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="popular-bundle-pack">
+        <div class="product-heading">
+            <h3>Popular Bundle Pack</h3>
+        </div>
+
+        
+        <div class="product-container">
+            <div class="product-box">
+                <img src="images/pack1.png" alt="">
+                <strong>Big Pack</strong>
+                <span class="quantity">Lemon, Tomato, Potato,+4</span>
+                <span class="price">₹ 350</span>
+
+                <a href="" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    Add To Cart
+                </a>
+                <a href="" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <div class="product-box">
+                <img src="images/pack2.jpg" alt="">
+                <strong>Large Pack</strong>
+                <span class="quantity">Lemon, Tomato, Potato,+2</span>
+                <span class="price">₹ 550</span>
+
+                <a href="" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    Add To Cart
+                </a>
+                <a href="" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <div class="product-box">
+                <img src="images/pack3.png" alt="">
+                <strong>Small Pack</strong>
+                <span class="quantity">Lemon, Tomato, Potato</span>
+                <span class="price">₹ 200</span>
+
+                <a href="" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    Add To Cart
+                </a>
+                <a href="" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <div class="product-box">
+                <img src="images/pack1.png" alt="">
+                <strong>Big Pack</strong>
+                <span class="quantity">Lemon, Tomato, Potato,+4</span>
+                <span class="price">₹ 350</span>
+
+                <a href="" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    Add To Cart
+                </a>
+                <a href="" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <div class="product-box">
+                <img src="images/pack2.jpg" alt="">
+                <strong>Large Pack</strong>
+                <span class="quantity">Lemon, Tomato, Potato,+2</span>
+                <span class="price">₹ 550</span>
+
+                <a href="" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    Add To Cart
+                </a>
+                <a href="" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+
+            <div class="product-box">
+                <img src="images/pack3.png" alt="">
+                <strong>Small Pack</strong>
+                <span class="quantity">Lemon, Tomato, Potato</span>
+                <span class="price">₹ 200</span>
+
+                <a href="" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i>
+                    Add To Cart
+                </a>
+                <a href="" class="like-btn">
+                    <i class="far fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="clients">
+
+
+        <div class="clients-heading">
+            <h3>What Our Client's Say</h3>
+        </div>
+
+        <div class="client-box-container">
+            <div class="client-box">
+                <div class="client-profile">
+                    <img src="images/client-1.jpg" alt="">
+                    <div class="profile-text">
+                        <strong>James Mcavoy</strong>
+                        <span>CEO</span>
+                    </div>
+                </div>
+
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <p>The variety of products available is impressive. I can find almost everything I need in one place, from fresh produce to household essentials. I appreciate the frequent deals and discounts that the website offers. It helps me save money on my grocery purchases.</p>
+
+            </div>
+
+            <div class="client-box">
+                <div class="client-profile">
+                    <img src="images/client-2.jpg" alt="">
+                    <div class="profile-text">
+                        <strong>Adward Mcavoy</strong>
+                        <span>Software Developer</span>
+                    </div>
+                </div>
+
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <p>The variety of products available is impressive. I can find almost everything I need in one place, from fresh produce to household essentials. I appreciate the frequent deals and discounts that the website offers. It helps me save money on my grocery purchases.</p>
+
+            </div>
+
+            <div class="client-box">
+                <div class="client-profile">
+                    <img src="images/client-3.jpg" alt="">
+                    <div class="profile-text">
+                        <strong>Ava Alex</strong>
+                        <span>Marketer</span>
+                    </div>
+                </div>
+
+                <div class="ratings">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <p>The variety of products available is impressive. I can find almost everything I need in one place, from fresh produce to household essentials. I appreciate the frequent deals and discounts that the website offers. It helps me save money on my grocery purchases.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="partner">
+        <div class="partner-heading">
+            <h3>Our Trusted Partnes</h3>
+        </div>
+
+        <div class="logo-container">
+            <img src="images/logo-1.png" alt="">
+            <img src="images/logo-2.png" alt="">
+            <img src="images/logo-3.png" alt="">
+            <img src="images/logo-4.png" alt="">
+
+        </div>
+    </section>
+
+    <section id="download-app">
+        <div class="app-img">
+            <img src="images/mobile-app.png" alt="">
+        </div>
+
+        <div class="download-app-text">
+            <strong>Download App</strong>
+            <p>Welcome to eGrocery, the ultimate online grocery shopping app designed to make your life easier and more convenient. With eGrocery, you can say goodbye to long queues and heavy grocery bags, as we bring the supermarket right to your fingertips. Whether you're at home or on the go, let eGrocery be your go-to companion for all your grocery needs.</p>
+            
+            <div class="download-btns">
+                <a href=""><img src="images/googleplay-btn.png" alt=""></a>
+                <a href=""><img src="images/appstore-btn.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href=""><span>e</span>Grocery</a>
+                <div class="social">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-telegram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-link">
+                <strong>Product</strong>
+
+                <ul>
+                    <li><a href="">Clothes</a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Popular</a></li>
+                    <li><a href="">New</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-link">
+                <strong>Category</strong>
+
+                <ul>
+                    <li><a href="">Beauty</a></li>
+                    <li><a href="">Meats</a></li>
+                    <li><a href="">Kids</a></li>
+                    <li><a href="">Clothes</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-link">
+                <strong>Contact</strong>
+
+                <ul>
+                    <li><a href="">Phone:- 9598073781</a></li>
+                    <li><a href="">Email:- vikki9598073781@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
